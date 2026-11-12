@@ -1,0 +1,149 @@
+{
+  "version": 2,
+  "archiveId": "arch-r34-fixture",
+  "name": "",
+  "sources": [
+    {
+      "id": "411de0d2e04a512ccfc1a67e",
+      "kind": "file",
+      "title": "讲解稿",
+      "text": "讲解限时 120 秒。\n全文 330 字。",
+      "origin": "",
+      "at": "2026-11-11T23:23:25.950Z"
+    }
+  ],
+  "facts": [],
+  "discoveries": [],
+  "dismissed": [],
+  "goals": [
+    {
+      "id": "g-r34",
+      "title": "博物馆讲解",
+      "step": "先准备 120 秒口播",
+      "unit": "次",
+      "entries": [],
+      "at": "2026-11-11T00:00:00.000Z",
+      "brief": {
+        "request": "把讲解压成 120 秒内可用的口播草稿",
+        "materialRefs": [
+          {
+            "kind": "source",
+            "id": "411de0d2e04a512ccfc1a67e",
+            "version": 0
+          }
+        ],
+        "updatedAt": "2026-11-11T23:23:25.950Z",
+        "synthetic": false,
+        "modelPreparation": {
+          "version": 1,
+          "preview": {
+            "id": "5745ea97390ecbaef3d3f7db",
+            "goalId": "g-r34",
+            "archiveId": "arch-r34-fixture",
+            "request": "把讲解压成 120 秒内可用的口播草稿",
+            "goal": {
+              "title": "博物馆讲解",
+              "step": "先准备 120 秒口播",
+              "unit": "次"
+            },
+            "destination": null,
+            "selections": [
+              {
+                "kind": "source",
+                "id": "411de0d2e04a512ccfc1a67e",
+                "version": 0
+              }
+            ],
+            "inputs": [
+              {
+                "key": "r:411de0d2e04a512ccfc1a67e:0:11",
+                "version": 1,
+                "quote": "讲解限时 120 秒。",
+                "text": "讲解限时 120 秒。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "411de0d2e04a512ccfc1a67e",
+                "sourceTitle": "讲解稿",
+                "start": 0,
+                "end": 11,
+                "documentIds": [
+                  "411de0d2e04a512ccfc1a67e"
+                ],
+                "contentHash": "8d750d3e8f9ab152c552f27e2372603f39374a593e85d470dff7280a2466c1bd",
+                "identity": "[\"r:411de0d2e04a512ccfc1a67e:0:11\",null,1,\"讲解限时 120 秒。\",\"file\",\"file-quote\",true,\"411de0d2e04a512ccfc1a67e\",0,11,[\"411de0d2e04a512ccfc1a67e\"],\"\"]"
+              },
+              {
+                "key": "r:411de0d2e04a512ccfc1a67e:12:21",
+                "version": 1,
+                "quote": "全文 330 字。",
+                "text": "全文 330 字。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "411de0d2e04a512ccfc1a67e",
+                "sourceTitle": "讲解稿",
+                "start": 12,
+                "end": 21,
+                "documentIds": [
+                  "411de0d2e04a512ccfc1a67e"
+                ],
+                "contentHash": "b90a3ff6890d63de6cb2d858310e8fa91a1102b4c68b19f4c00f3e21123e2dce",
+                "identity": "[\"r:411de0d2e04a512ccfc1a67e:12:21\",null,1,\"全文 330 字。\",\"file\",\"file-quote\",true,\"411de0d2e04a512ccfc1a67e\",12,21,[\"411de0d2e04a512ccfc1a67e\"],\"\"]"
+              }
+            ],
+            "excluded": [],
+            "coverage": {
+              "excludedPrivateSources": 0,
+              "credentialPassages": 0,
+              "quotedOrForwardedSources": 0,
+              "aiRoleRestrictedSources": 0,
+              "oldCalendarSources": 0,
+              "notices": []
+            },
+            "briefHash": "76abbcf71206295ee46e7fbf5fd5e19d2c0587a178d362ab064462f5338b7474",
+            "configHash": "cacd5d91edaacaca9e622cd030743f943a08e407496f3a70aa801e23bfb3b8d3",
+            "inputHash": "c1dd2120cd81315679005d93b82f78facc00c006882d5a6aca8c1fbc4b9a1e93",
+            "payload": [
+              {
+                "key": "r:411de0d2e04a512ccfc1a67e:0:11",
+                "version": 1,
+                "quote": "讲解限时 120 秒。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sources": [
+                  1
+                ]
+              },
+              {
+                "key": "r:411de0d2e04a512ccfc1a67e:12:21",
+                "version": 1,
+                "quote": "全文 330 字。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sources": [
+                  1
+                ]
+              }
+            ],
+            "messages": null,
+            "messagesHash": "",
+            "createdAt": "2026-11-11T23:23:25.950Z",
+            "invalid": false,
+            "consumed": false
+          }
+        }
+      }
+    }
+  ],
+  "proposals": [],
+  "reports": [],
+  "artifacts": [],
+  "people": [],
+  "profile": null,
+  "conversation": [],
+  "model": null,
+  "memoryRevision": 0
+}

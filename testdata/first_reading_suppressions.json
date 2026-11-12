@@ -1,0 +1,729 @@
+[
+  {
+    "name": "conditional",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构手记",
+          "text": "如果窗口许可，我想下周开一次修理课。\n不过许可还没有下来。\n我的工具箱是青色的。",
+          "origin": "note",
+          "at": "2026-11-09T11:09:13.023Z"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact",
+          "text": "我现在按自己的新说法安排。",
+          "source": "独立虚构手记",
+          "quote": "我想下周开一次修理课",
+          "category": "state",
+          "attribution": "confirmed",
+          "confirmed": true,
+          "version": 2,
+          "alternatives": [],
+          "evidence": [
+            {
+              "sourceId": "source",
+              "quote": "我想下周开一次修理课",
+              "start": 7,
+              "end": 17
+            }
+          ],
+          "history": [
+            {
+              "text": "我想下周开一次修理课",
+              "at": "2026-11-09T11:09:13.025Z"
+            }
+          ],
+          "at": "2026-11-09T11:09:13.026Z",
+          "sourceId": "source",
+          "start": 7,
+          "end": 17
+        }
+      ],
+      "dismissed": [],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "32ff31b6156a7fef619ff77105dae737efb558977bc1b0fe3f9ec245e763ad03",
+        "passageHash": "a64b802f871770a41d18c074a14535a5d7f32331e028272b499e535568bcf2f6"
+      },
+      {
+        "version": 1,
+        "documentHash": "32ff31b6156a7fef619ff77105dae737efb558977bc1b0fe3f9ec245e763ad03",
+        "passageHash": "7a8bcad026d88fe80add3336083b3b73415a8684435321bc2d0d8eec093b4e8e"
+      }
+    ]
+  },
+  {
+    "name": "named-fields",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构手记",
+          "text": "库存：短绳120厘米；用途：修补篮子；标记：白纸。",
+          "origin": "note",
+          "at": "2026-11-09T11:09:13.032Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "9686f15a755bc69fa264a897a3c8296000edbd3d6cc71009610ba314b6e80b78",
+        "passageHash": "b972ef080959cddee781f52fb43314543244a09bac729bdb4f4fce98f3fe4378"
+      }
+    ]
+  },
+  {
+    "name": "ai-roles",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "file",
+          "title": "独立虚构手记",
+          "text": "我（2026-11-08）：我的抽屉在书桌下面。\nAI（2026-11-08）：我建议换个柜子。\n我（2026-11-09）：不过我还没有决定。",
+          "origin": "ai-export",
+          "at": "2026-11-09T11:09:13.034Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 16,
+          "end": 23
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "9f856258be615185664698006b041f6ce83cf238dc43a7199f180f10942079f9",
+        "passageHash": "4d0d1dc671453adf2759cdd54502f0641d93810ac71b7b794ebc9ffa487f4567"
+      },
+      {
+        "version": 1,
+        "documentHash": "9f856258be615185664698006b041f6ce83cf238dc43a7199f180f10942079f9",
+        "passageHash": "97686e534f59cc8ac6d153422e04377dc0605c69450bddfa062ee90794936b59"
+      }
+    ]
+  },
+  {
+    "name": "quoted-speaker",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构手记",
+          "text": "邻居告诉我：“我的窗台很窄。放不下花盆。”我记录在蓝本上。\n但尺寸还没量。",
+          "origin": "note",
+          "at": "2026-11-09T11:09:13.034Z"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact",
+          "text": "我现在按自己的新说法安排。",
+          "source": "独立虚构手记",
+          "quote": "窗台很窄",
+          "category": "state",
+          "attribution": "confirmed",
+          "confirmed": true,
+          "version": 2,
+          "alternatives": [],
+          "evidence": [
+            {
+              "sourceId": "source",
+              "quote": "窗台很窄",
+              "start": 9,
+              "end": 13
+            }
+          ],
+          "history": [
+            {
+              "text": "窗台很窄",
+              "at": "2026-11-09T11:09:13.035Z"
+            }
+          ],
+          "at": "2026-11-09T11:09:13.035Z",
+          "sourceId": "source",
+          "start": 9,
+          "end": 13
+        }
+      ],
+      "dismissed": [],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "8fc91a6c0f65e3d7a5aac93856ebf89a4c7fc32ab652da6ecee8402e5682deb1",
+        "passageHash": "df2fef9c3c1c44a7bd2d93ca6c78b09cea56532b2c75807d7dcb977a101a462b"
+      },
+      {
+        "version": 1,
+        "documentHash": "8fc91a6c0f65e3d7a5aac93856ebf89a4c7fc32ab652da6ecee8402e5682deb1",
+        "passageHash": "0af2b0700b010a28a3870c78e619b9dc02f7899599cc6b0e0aea39352b5b2345"
+      }
+    ]
+  },
+  {
+    "name": "unicode-space",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构手记",
+          "text": "﻿  A  \tB\n 如果收到许可，我会搬书架。　\n我喜欢蓝色。",
+          "origin": "note",
+          "at": "2026-11-09T11:09:13.035Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 19,
+          "end": 22
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "aac70f5b957346b46abdc698a1f34aa226739eab2b10c103e60ca1857ee9a0b3",
+        "passageHash": "3edea1476c90c4ce2c740b24ac3bd649f41d49c4810edb2fe67d301a63b4ca8a"
+      },
+      {
+        "version": 1,
+        "documentHash": "aac70f5b957346b46abdc698a1f34aa226739eab2b10c103e60ca1857ee9a0b3",
+        "passageHash": "b8708d01354052872eeafe29b3a619d9033a685cb5a040781176024c410301e0"
+      }
+    ]
+  },
+  {
+    "name": "dated-clauses",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构手记",
+          "text": "周一九点见面，我打算带一本画册。\n后面的架子是绿色。",
+          "origin": "note",
+          "at": "2026-11-09T11:09:13.036Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "b626764e04e97ba55f07df7e68c1c86d53bf03588ced1c6aa885a66484776a69",
+        "passageHash": "ea72e3a1ba3aad33489245d193c6df340bd7318867b1a9d35d22da45705d0b8f"
+      }
+    ]
+  },
+  {
+    "name": "astral-action",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构手记",
+          "text": "周一九点😀，我想看看天色。\n登记号是甲。",
+          "origin": "note",
+          "at": "2026-11-09T11:09:13.037Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "58a9cc1c7a7635400d2aad88950b0e0ad9f473db6cb90da7f9d1f466015d7817",
+        "passageHash": "e15359bdc089e621240f08805bd5338662843ab3596683f328bbd9de1ab6e0d6"
+      }
+    ]
+  },
+  {
+    "name": "forwarded",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "mail",
+          "title": "独立虚构手记",
+          "text": "我会晚一点到。\nOn Monday wrote:\n旧消息说周日到。",
+          "origin": "mail",
+          "at": "2026-11-09T11:09:13.037Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 2,
+          "end": 5
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "f8808fa55bc4e81c6b8d43eafa98b0eac2c5e0e1ad551d8e6c3a788da9f83a22",
+        "passageHash": "4de85d87a7102e1e8986301d4ecb4fdc4f6439ecd2463d2870a486593283edf8"
+      },
+      {
+        "version": 1,
+        "documentHash": "f8808fa55bc4e81c6b8d43eafa98b0eac2c5e0e1ad551d8e6c3a788da9f83a22",
+        "passageHash": "8993baed85cfe4471827d63bcf21166c86ae2458060de42dd6293f37194092ef"
+      }
+    ]
+  },
+  {
+    "name": "quoted-line",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "mail",
+          "title": "独立虚构手记",
+          "text": "确认窗口已开放。\n> 旧信：不要照此办理。\n但只接受纸本申请。\n我的窗口在二楼。",
+          "origin": "mail",
+          "at": "2026-11-09T11:09:13.038Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 23,
+          "end": 30
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "4ba4d49e19c4e55ed9354119504d2a59ef812d7ab2f3ee56a1e8c2ef9d1570cb",
+        "passageHash": "9dec0f29ed79365b435435b60ff8c38ba79edf33bf080373565ecc5373e51e5e"
+      },
+      {
+        "version": 1,
+        "documentHash": "4ba4d49e19c4e55ed9354119504d2a59ef812d7ab2f3ee56a1e8c2ef9d1570cb",
+        "passageHash": "3a13c6ae07737c0d86979d94aea16803a1878f21b02236ddaaf6d1a7870ded38"
+      }
+    ]
+  },
+  {
+    "name": "english-condition",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构手记",
+          "text": "I will move the shelf.\nBut only if the permit arrives.\nMy blue notebook stays here.",
+          "origin": "note",
+          "at": "2026-11-09T11:09:13.038Z"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact",
+          "text": "我现在按自己的新说法安排。",
+          "source": "独立虚构手记",
+          "quote": "move the shelf",
+          "category": "state",
+          "attribution": "confirmed",
+          "confirmed": true,
+          "version": 2,
+          "alternatives": [],
+          "evidence": [
+            {
+              "sourceId": "source",
+              "quote": "move the shelf",
+              "start": 7,
+              "end": 21
+            }
+          ],
+          "history": [
+            {
+              "text": "move the shelf",
+              "at": "2026-11-09T11:09:13.038Z"
+            }
+          ],
+          "at": "2026-11-09T11:09:13.038Z",
+          "sourceId": "source",
+          "start": 7,
+          "end": 21
+        }
+      ],
+      "dismissed": [],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "93cb0470cc0b3ab30d9f5b13ddba3e6540235bf9c2e9013d88e50508605c5959",
+        "passageHash": "03e78e2ce87b1277e39a6a70346fd8165789e7ace568ac4810cbf3f057c2f607"
+      },
+      {
+        "version": 1,
+        "documentHash": "93cb0470cc0b3ab30d9f5b13ddba3e6540235bf9c2e9013d88e50508605c5959",
+        "passageHash": "7f873bd7f79e3f3a5c052c15e09580792fdb61a36cc6be2ef9955b2d2063d67b"
+      }
+    ]
+  },
+  {
+    "name": "case-and-normalization",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "file",
+          "title": "独立虚构手记",
+          "text": "Route A is pending. Route a is confirmed.\nＡ is a different label.",
+          "origin": "document",
+          "at": "2026-11-09T11:09:13.039Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "14fd40f026a34fc2f761cf7597a9276b0d521fd01a035e9956d53a34d94533c1",
+        "passageHash": "4c85e70186ca60750072955602c9e04ba5cbfaa6093ec8560f697cf76faf1b3b"
+      }
+    ]
+  },
+  {
+    "name": "qualifier-whole",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构",
+          "text": "我可以进入温室。不过周一不可以。我的手套是米色的。",
+          "origin": "note",
+          "at": "2026-11-09T11:12:33.343Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "cb15a6183cbcd623da9cd9cea3011802beb4a36b699bcff8a304ba63792606bb",
+        "passageHash": "c64db38f6df2622f9d6a106fcac4c02cd06c01a83e827ce77cba1d1032303c14"
+      },
+      {
+        "version": 1,
+        "documentHash": "cb15a6183cbcd623da9cd9cea3011802beb4a36b699bcff8a304ba63792606bb",
+        "passageHash": "6622a8bc675895f17e62a829827572addf41a9724daa0666daa31799ace2c27b"
+      },
+      {
+        "version": 1,
+        "documentHash": "cb15a6183cbcd623da9cd9cea3011802beb4a36b699bcff8a304ba63792606bb",
+        "passageHash": "debf67c2c4deaf7da96157f8d1c03c828fa849e1d6adac70d0f82a42c9ead510"
+      }
+    ]
+  },
+  {
+    "name": "qualifier-only",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构",
+          "text": "我可以进入温室。不过周一不可以。我的手套是米色的。",
+          "origin": "note",
+          "at": "2026-11-09T11:12:33.343Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 8,
+          "end": 16
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "cb15a6183cbcd623da9cd9cea3011802beb4a36b699bcff8a304ba63792606bb",
+        "passageHash": "debf67c2c4deaf7da96157f8d1c03c828fa849e1d6adac70d0f82a42c9ead510"
+      },
+      {
+        "version": 1,
+        "documentHash": "cb15a6183cbcd623da9cd9cea3011802beb4a36b699bcff8a304ba63792606bb",
+        "passageHash": "c64db38f6df2622f9d6a106fcac4c02cd06c01a83e827ce77cba1d1032303c14"
+      }
+    ]
+  },
+  {
+    "name": "unicode-label-dotted-i",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构标签",
+          "text": "İ:红色；i:蓝色",
+          "origin": "note",
+          "at": "2026-11-09T11:18:33.558Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 0,
+          "end": 9
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "e34caa6daa1f16ed7ca09b3aa6bdda5d1591051a7bb4ed5b04466bcf97709bcd",
+        "passageHash": "ea705e990016bd05acd47b53aea3d48e42b1ee1e7c15686db8b997d85d3bbc9d"
+      },
+      {
+        "version": 1,
+        "documentHash": "e34caa6daa1f16ed7ca09b3aa6bdda5d1591051a7bb4ed5b04466bcf97709bcd",
+        "passageHash": "69af75c6e7163c6e1203a9b5fc607cec9f3ef37ebcbdafadd12b41dc837d0204"
+      },
+      {
+        "version": 1,
+        "documentHash": "e34caa6daa1f16ed7ca09b3aa6bdda5d1591051a7bb4ed5b04466bcf97709bcd",
+        "passageHash": "419a1547f9acfe015568c89ebce7a5d63b87db399c0d60ae9052f45d259cf16b"
+      }
+    ]
+  },
+  {
+    "name": "unicode-label-final-sigma",
+    "sourceId": "source",
+    "state": {
+      "version": 2,
+      "name": "",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "self",
+          "title": "独立虚构标签",
+          "text": "ΟΣ:红色；οσ:蓝色",
+          "origin": "note",
+          "at": "2026-11-09T11:18:33.563Z"
+        }
+      ],
+      "facts": [],
+      "dismissed": [
+        {
+          "sourceId": "source",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "goals": [],
+      "proposals": [],
+      "reports": [],
+      "profile": null,
+      "conversation": [],
+      "model": null
+    },
+    "expected": [
+      {
+        "version": 1,
+        "documentHash": "04197c0b2cd7ea1cbb537e49b554e1364c546fe1f7408b26cc2410b926226b4d",
+        "passageHash": "2b741f1f334158e94a454b9ea9d75f52d25d43974f0d91386fb4fb41842b0ba7"
+      },
+      {
+        "version": 1,
+        "documentHash": "04197c0b2cd7ea1cbb537e49b554e1364c546fe1f7408b26cc2410b926226b4d",
+        "passageHash": "86117c2d67058f1f7f038d2d0cab1d6b7dcf387fb522403c5ef9ba98d2863077"
+      },
+      {
+        "version": 1,
+        "documentHash": "04197c0b2cd7ea1cbb537e49b554e1364c546fe1f7408b26cc2410b926226b4d",
+        "passageHash": "56d49a5f2cc296732c6303c4beab256ce1568e61685afa318425d85494416129"
+      }
+    ]
+  }
+]

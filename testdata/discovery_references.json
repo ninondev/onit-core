@@ -1,0 +1,699 @@
+{
+  "scope": "actual JavaScript state produced by controlled replies, no real model",
+  "proposed": {
+    "version": 2,
+    "name": "",
+    "sources": [
+      {
+        "id": "a3399fd7b8d054fda0635bef",
+        "kind": "file",
+        "title": "选中的资料",
+        "text": "弦架旁有一块方石。\n背面刻着一行小字。",
+        "origin": "document",
+        "at": "2026-11-09T11:49:48.163Z"
+      }
+    ],
+    "facts": [],
+    "dismissed": [],
+    "goals": [],
+    "proposals": [],
+    "reports": [],
+    "profile": null,
+    "conversation": [
+      {
+        "id": "cc1c006b82466456acf99f69",
+        "role": "assistant",
+        "kind": "first-discovery",
+        "text": "你可能把方石当作自己的纪念物。",
+        "firstReadingId": "d18707c18feddc103fc62e10",
+        "factIds": [],
+        "readingReferences": [
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:0:9",
+            "version": 1,
+            "quote": "弦架旁有一块方石。",
+            "text": "弦架旁有一块方石。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 0,
+            "end": 9,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ]
+          },
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:10:19",
+            "version": 1,
+            "quote": "背面刻着一行小字。",
+            "text": "背面刻着一行小字。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 10,
+            "end": 19,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ]
+          }
+        ],
+        "discoveryReferences": [
+          {
+            "id": "d18707c18feddc103fc62e10",
+            "attemptId": "fc396979b671fb9f5ea5c77f",
+            "revision": 1,
+            "mode": "proposed",
+            "citations": [
+              {
+                "key": "r:a3399fd7b8d054fda0635bef:0:9",
+                "version": 1,
+                "quote": "弦架旁有一块方石。",
+                "text": "弦架旁有一块方石。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "a3399fd7b8d054fda0635bef",
+                "sourceTitle": "选中的资料",
+                "start": 0,
+                "end": 9,
+                "documentIds": [
+                  "a3399fd7b8d054fda0635bef"
+                ]
+              },
+              {
+                "key": "r:a3399fd7b8d054fda0635bef:10:19",
+                "version": 1,
+                "quote": "背面刻着一行小字。",
+                "text": "背面刻着一行小字。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "a3399fd7b8d054fda0635bef",
+                "sourceTitle": "选中的资料",
+                "start": 10,
+                "end": 19,
+                "documentIds": [
+                  "a3399fd7b8d054fda0635bef"
+                ]
+              }
+            ]
+          }
+        ],
+        "at": "2026-11-09T11:49:48.169Z"
+      },
+      {
+        "id": "17f780a71d3cde87efbd3af5",
+        "kind": "portrait-invite",
+        "role": "assistant",
+        "text": "你的画像准备好了。",
+        "at": "2026-11-09T11:49:48.169Z"
+      },
+      {
+        "id": "proposed-answer-q",
+        "role": "user",
+        "text": "请接着说。"
+      },
+      {
+        "id": "proposed-answer",
+        "role": "assistant",
+        "text": "方石是你的纪念物。",
+        "factIds": [],
+        "discoveryReferences": [
+          {
+            "id": "d18707c18feddc103fc62e10",
+            "attemptId": "fc396979b671fb9f5ea5c77f",
+            "revision": 1,
+            "mode": "proposed",
+            "citations": [
+              {
+                "key": "r:a3399fd7b8d054fda0635bef:0:9",
+                "version": 1,
+                "quote": "弦架旁有一块方石。",
+                "text": "弦架旁有一块方石。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "a3399fd7b8d054fda0635bef",
+                "sourceTitle": "选中的资料",
+                "start": 0,
+                "end": 9,
+                "documentIds": [
+                  "a3399fd7b8d054fda0635bef"
+                ]
+              },
+              {
+                "key": "r:a3399fd7b8d054fda0635bef:10:19",
+                "version": 1,
+                "quote": "背面刻着一行小字。",
+                "text": "背面刻着一行小字。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "a3399fd7b8d054fda0635bef",
+                "sourceTitle": "选中的资料",
+                "start": 10,
+                "end": 19,
+                "documentIds": [
+                  "a3399fd7b8d054fda0635bef"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceKeys": [
+          "opening"
+        ],
+        "readingReferences": [
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:0:9",
+            "version": 1,
+            "quote": "弦架旁有一块方石。",
+            "text": "弦架旁有一块方石。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 0,
+            "end": 9,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ],
+            "via": "proposed-opening"
+          },
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:10:19",
+            "version": 1,
+            "quote": "背面刻着一行小字。",
+            "text": "背面刻着一行小字。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 10,
+            "end": 19,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ],
+            "via": "proposed-opening"
+          }
+        ]
+      },
+      {
+        "id": "raw-answer-q",
+        "role": "user",
+        "text": "请接着说。"
+      },
+      {
+        "id": "raw-answer",
+        "role": "assistant",
+        "text": "背面有一行小字。",
+        "factIds": [],
+        "discoveryReferences": [],
+        "referenceKeys": [
+          "reading:r:a3399fd7b8d054fda0635bef:10:19"
+        ],
+        "readingReferences": [
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:10:19",
+            "version": 1,
+            "quote": "背面刻着一行小字。",
+            "text": "背面刻着一行小字。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 10,
+            "end": 19,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ]
+          }
+        ]
+      }
+    ],
+    "model": null,
+    "reveal": {
+      "firstReading": {
+        "id": "d18707c18feddc103fc62e10",
+        "status": "complete",
+        "createdAt": "2026-11-09T11:49:48.163Z",
+        "selection": [
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:0:9",
+            "version": 1,
+            "quote": "弦架旁有一块方石。",
+            "text": "弦架旁有一块方石。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 0,
+            "end": 9,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ]
+          },
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:10:19",
+            "version": 1,
+            "quote": "背面刻着一行小字。",
+            "text": "背面刻着一行小字。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 10,
+            "end": 19,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ]
+          }
+        ],
+        "destination": "controlled-fixture",
+        "attemptId": "fc396979b671fb9f5ea5c77f",
+        "startedAt": "2026-11-09T11:49:48.167Z",
+        "completedAt": "2026-11-09T11:49:48.168Z",
+        "result": {
+          "title": "你可能把方石当作自己的纪念物。",
+          "body": "原文没有说明归属，这是受控测试用顾问推断。",
+          "kind": "finding",
+          "citations": [
+            {
+              "key": "r:a3399fd7b8d054fda0635bef:0:9",
+              "version": 1,
+              "quote": "弦架旁有一块方石。",
+              "text": "弦架旁有一块方石。",
+              "kind": "file",
+              "provenance": "file-quote",
+              "sourceBacked": true,
+              "sourceId": "a3399fd7b8d054fda0635bef",
+              "sourceTitle": "选中的资料",
+              "start": 0,
+              "end": 9,
+              "documentIds": [
+                "a3399fd7b8d054fda0635bef"
+              ]
+            },
+            {
+              "key": "r:a3399fd7b8d054fda0635bef:10:19",
+              "version": 1,
+              "quote": "背面刻着一行小字。",
+              "text": "背面刻着一行小字。",
+              "kind": "file",
+              "provenance": "file-quote",
+              "sourceBacked": true,
+              "sourceId": "a3399fd7b8d054fda0635bef",
+              "sourceTitle": "选中的资料",
+              "start": 10,
+              "end": 19,
+              "documentIds": [
+                "a3399fd7b8d054fda0635bef"
+              ]
+            }
+          ]
+        },
+        "revision": 1
+      }
+    }
+  },
+  "corrected": {
+    "version": 2,
+    "name": "",
+    "sources": [
+      {
+        "id": "a3399fd7b8d054fda0635bef",
+        "kind": "file",
+        "title": "选中的资料",
+        "text": "弦架旁有一块方石。\n背面刻着一行小字。",
+        "origin": "document",
+        "at": "2026-11-09T11:49:48.163Z"
+      }
+    ],
+    "facts": [
+      {
+        "id": "7a324fcee797197d05c14e0c",
+        "text": "方石属于工作室。",
+        "source": "本人对顾问的更正",
+        "quote": "",
+        "category": "state",
+        "attribution": "confirmed",
+        "confirmed": true,
+        "version": 2,
+        "alternatives": [],
+        "evidence": [],
+        "history": [],
+        "at": "2026-11-09T11:49:48.176Z"
+      }
+    ],
+    "dismissed": [],
+    "goals": [],
+    "proposals": [],
+    "reports": [],
+    "profile": null,
+    "conversation": [
+      {
+        "id": "cc1c006b82466456acf99f69",
+        "role": "assistant",
+        "kind": "first-discovery",
+        "text": "你可能把方石当作自己的纪念物。",
+        "firstReadingId": "d18707c18feddc103fc62e10",
+        "factIds": [],
+        "readingReferences": [
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:0:9",
+            "version": 1,
+            "quote": "弦架旁有一块方石。",
+            "text": "弦架旁有一块方石。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 0,
+            "end": 9,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ]
+          },
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:10:19",
+            "version": 1,
+            "quote": "背面刻着一行小字。",
+            "text": "背面刻着一行小字。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 10,
+            "end": 19,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ]
+          }
+        ],
+        "discoveryReferences": [
+          {
+            "id": "d18707c18feddc103fc62e10",
+            "attemptId": "fc396979b671fb9f5ea5c77f",
+            "revision": 1,
+            "mode": "proposed",
+            "citations": [
+              {
+                "key": "r:a3399fd7b8d054fda0635bef:0:9",
+                "version": 1,
+                "quote": "弦架旁有一块方石。",
+                "text": "弦架旁有一块方石。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "a3399fd7b8d054fda0635bef",
+                "sourceTitle": "选中的资料",
+                "start": 0,
+                "end": 9,
+                "documentIds": [
+                  "a3399fd7b8d054fda0635bef"
+                ]
+              },
+              {
+                "key": "r:a3399fd7b8d054fda0635bef:10:19",
+                "version": 1,
+                "quote": "背面刻着一行小字。",
+                "text": "背面刻着一行小字。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "a3399fd7b8d054fda0635bef",
+                "sourceTitle": "选中的资料",
+                "start": 10,
+                "end": 19,
+                "documentIds": [
+                  "a3399fd7b8d054fda0635bef"
+                ]
+              }
+            ]
+          }
+        ],
+        "at": "2026-11-09T11:49:48.169Z",
+        "basisCorrected": true
+      },
+      {
+        "id": "17f780a71d3cde87efbd3af5",
+        "kind": "portrait-invite",
+        "role": "assistant",
+        "text": "你的画像准备好了。",
+        "at": "2026-11-09T11:49:48.169Z"
+      },
+      {
+        "id": "proposed-answer-q",
+        "role": "user",
+        "text": "请接着说。"
+      },
+      {
+        "id": "proposed-answer",
+        "role": "assistant",
+        "text": "方石是你的纪念物。",
+        "factIds": [],
+        "discoveryReferences": [
+          {
+            "id": "d18707c18feddc103fc62e10",
+            "attemptId": "fc396979b671fb9f5ea5c77f",
+            "revision": 1,
+            "mode": "proposed",
+            "citations": [
+              {
+                "key": "r:a3399fd7b8d054fda0635bef:0:9",
+                "version": 1,
+                "quote": "弦架旁有一块方石。",
+                "text": "弦架旁有一块方石。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "a3399fd7b8d054fda0635bef",
+                "sourceTitle": "选中的资料",
+                "start": 0,
+                "end": 9,
+                "documentIds": [
+                  "a3399fd7b8d054fda0635bef"
+                ]
+              },
+              {
+                "key": "r:a3399fd7b8d054fda0635bef:10:19",
+                "version": 1,
+                "quote": "背面刻着一行小字。",
+                "text": "背面刻着一行小字。",
+                "kind": "file",
+                "provenance": "file-quote",
+                "sourceBacked": true,
+                "sourceId": "a3399fd7b8d054fda0635bef",
+                "sourceTitle": "选中的资料",
+                "start": 10,
+                "end": 19,
+                "documentIds": [
+                  "a3399fd7b8d054fda0635bef"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceKeys": [
+          "opening"
+        ],
+        "readingReferences": [
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:0:9",
+            "version": 1,
+            "quote": "弦架旁有一块方石。",
+            "text": "弦架旁有一块方石。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 0,
+            "end": 9,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ],
+            "via": "proposed-opening"
+          },
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:10:19",
+            "version": 1,
+            "quote": "背面刻着一行小字。",
+            "text": "背面刻着一行小字。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 10,
+            "end": 19,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ],
+            "via": "proposed-opening"
+          }
+        ],
+        "basisCorrected": true
+      },
+      {
+        "id": "raw-answer-q",
+        "role": "user",
+        "text": "请接着说。"
+      },
+      {
+        "id": "raw-answer",
+        "role": "assistant",
+        "text": "背面有一行小字。",
+        "factIds": [],
+        "discoveryReferences": [],
+        "referenceKeys": [
+          "reading:r:a3399fd7b8d054fda0635bef:10:19"
+        ],
+        "readingReferences": [
+          {
+            "key": "r:a3399fd7b8d054fda0635bef:10:19",
+            "version": 1,
+            "quote": "背面刻着一行小字。",
+            "text": "背面刻着一行小字。",
+            "kind": "file",
+            "provenance": "file-quote",
+            "sourceBacked": true,
+            "sourceId": "a3399fd7b8d054fda0635bef",
+            "sourceTitle": "选中的资料",
+            "start": 10,
+            "end": 19,
+            "documentIds": [
+              "a3399fd7b8d054fda0635bef"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "confirmed-answer-q",
+        "role": "user",
+        "text": "请接着说。"
+      },
+      {
+        "id": "confirmed-answer",
+        "role": "assistant",
+        "text": "按你现在的说法，方石属于工作室。",
+        "factIds": [
+          "7a324fcee797197d05c14e0c"
+        ],
+        "discoveryReferences": [
+          {
+            "id": "d18707c18feddc103fc62e10",
+            "attemptId": "fc396979b671fb9f5ea5c77f",
+            "revision": 2,
+            "mode": "confirmed-discovery",
+            "citations": [
+              {
+                "key": "f:7a324fcee797197d05c14e0c",
+                "id": "7a324fcee797197d05c14e0c",
+                "version": 2,
+                "quote": "方石属于工作室。",
+                "text": "方石属于工作室。",
+                "kind": "self",
+                "provenance": "user-confirmation",
+                "sourceBacked": false,
+                "sourceId": null,
+                "sourceTitle": "",
+                "start": null,
+                "end": null,
+                "documentIds": [],
+                "statedAt": "2026-11-09T11:49:48.176Z"
+              }
+            ]
+          }
+        ],
+        "referenceKeys": [
+          "opening"
+        ],
+        "readingReferences": [
+          {
+            "key": "f:7a324fcee797197d05c14e0c",
+            "id": "7a324fcee797197d05c14e0c",
+            "version": 2,
+            "quote": "方石属于工作室。",
+            "text": "方石属于工作室。",
+            "kind": "self",
+            "provenance": "user-confirmation",
+            "sourceBacked": false,
+            "sourceId": null,
+            "sourceTitle": "",
+            "start": null,
+            "end": null,
+            "documentIds": [],
+            "statedAt": "2026-11-09T11:49:48.176Z"
+          }
+        ]
+      }
+    ],
+    "model": null,
+    "reveal": {
+      "firstReading": {
+        "id": "d18707c18feddc103fc62e10",
+        "status": "corrected",
+        "createdAt": "2026-11-09T11:49:48.163Z",
+        "selection": [
+          {
+            "key": "f:7a324fcee797197d05c14e0c",
+            "id": "7a324fcee797197d05c14e0c",
+            "version": 2,
+            "quote": "方石属于工作室。",
+            "text": "方石属于工作室。",
+            "kind": "self",
+            "provenance": "user-confirmation",
+            "sourceBacked": false,
+            "sourceId": null,
+            "sourceTitle": "",
+            "start": null,
+            "end": null,
+            "documentIds": [],
+            "statedAt": "2026-11-09T11:49:48.176Z"
+          }
+        ],
+        "destination": "controlled-fixture",
+        "attemptId": "fc396979b671fb9f5ea5c77f",
+        "startedAt": "2026-11-09T11:49:48.167Z",
+        "completedAt": "2026-11-09T11:49:48.168Z",
+        "result": {
+          "title": "方石属于工作室。",
+          "body": "",
+          "kind": "finding",
+          "citations": [
+            {
+              "key": "f:7a324fcee797197d05c14e0c",
+              "id": "7a324fcee797197d05c14e0c",
+              "version": 2,
+              "quote": "方石属于工作室。",
+              "text": "方石属于工作室。",
+              "kind": "self",
+              "provenance": "user-confirmation",
+              "sourceBacked": false,
+              "sourceId": null,
+              "sourceTitle": "",
+              "start": null,
+              "end": null,
+              "documentIds": [],
+              "statedAt": "2026-11-09T11:49:48.176Z"
+            }
+          ]
+        },
+        "revision": 2,
+        "correctionId": "7a324fcee797197d05c14e0c"
+      }
+    }
+  }
+}

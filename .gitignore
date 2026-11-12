@@ -1,0 +1,8 @@
+/adviser
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+/build/
+__pycache__/
+.DS_Store
